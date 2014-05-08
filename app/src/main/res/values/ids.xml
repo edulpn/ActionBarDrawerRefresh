@@ -4,6 +4,7 @@
     <item name="main_activity_fragment_container" type="id"/>
 
     <!-- Left Drawer Fragment -->
+    <item name="left_drawer_fragment" type="id"/>
     <item name="left_drawer_fragment_list" type="id"/>
 
 </resources>

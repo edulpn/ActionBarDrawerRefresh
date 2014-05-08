@@ -11,14 +11,22 @@
         android:layout_height="match_parent"/>
 
     <!-- View do Drawer Esquerdo -->
-    <FrameLayout
-        android:id="@+id/left_drawer_container"
+    <LinearLayout
         android:layout_width="240dp"
         android:layout_height="fill_parent"
         android:layout_gravity="start"
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
-        android:background="#111" />
+        android:background="#111">
+
+        <fragment
+            android:name="com.edulpn.actionbardrawerrefresh.app.fragments.LeftDrawerFragment"
+            android:id="@id/left_drawer_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:layout="@layout/left_drawer_fragment" />
+
+    </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

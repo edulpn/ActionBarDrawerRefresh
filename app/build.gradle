@@ -26,5 +26,5 @@ dependencies {
     repositories {
         mavenCentral()
     }
-    compile 'com.github.chrisbanes.actionbarpulltorefresh:library:+'
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:extra-abc:+'
 }
